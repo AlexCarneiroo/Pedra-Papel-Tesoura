@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo pedra papel tesoura!</title>
+
+    <style>
+
+        .align{ 
+            display: flex;
+        }
+
+        .player,.oponent{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; padding: 20px; color: blue;">Jogo Pedra Papel Tesoura!</h1>
+    
+    <hr>
+<div class="align">
+    <div class="player">
+        <h1 style="color: green;">Voce</h1>
+        <div><img opt="papel" src="paper.png" alt=""></div>
+        <div><img opt="pedra" src="rock.png" alt=""></div>
+        <div><img opt="tesoura" src="scisor.png" alt=""></div>
+    </div>
+    <div class="resultado"><h2 class="vitoria" style="text-align: center; color: wheat;">.</h2></div>
+    
+    <div class="oponent">
+        <h1 style="color: red;">Oponente</h1>
+        <div><img opt="papel" src="paper.png" alt=""></div>
+        <div><img opt="pedra" src="rock.png" alt=""></div>
+        <div><img opt="tesoura" src="scisor.png" alt=""></div>
+    </div>
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

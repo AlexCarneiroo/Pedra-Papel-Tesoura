@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #242424;
+}
+
+.align{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.player img,
+.oponent img
+{
+    width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.resultado{
+    width: 200px;
+}
+
+.voce{
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 5px;
+}
+.inimigo{
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
